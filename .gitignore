@@ -1,0 +1,8 @@
+.DS_Store
+.merlin
+/node_modules/
+/lib/
+*.cm*
+*.js
+!*_expected.js
+npm-debug.log
