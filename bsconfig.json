@@ -5,6 +5,8 @@
 {
   "name" : "simple-reason-bucklescript",
   "refmt": "reason/refmt_impl.native",
+  "ppx-flags": ["reason/reactjs_jsx_ppx.native"],
+  "bs-dependencies": ["reason-js"],
   "sources": [{
       "dir": "src",
     }, {
