@@ -12,7 +12,7 @@ module Page = {
     </p>;
 };
 
-include ReactRe.CreateComponent Page;
 
-/* The actual call exposed to consumers, via JSX */
+/* NB: These *must* be declared for the JSX syntax to work. */
+include ReactRe.CreateComponent Page;
 let createElement ::message => wrapProps {message: message};
